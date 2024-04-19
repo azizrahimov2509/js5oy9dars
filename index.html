@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Get info from server</h1>
+    <div class="senders" style="display: flex; gap: 20px; justify-content: center; margin-bottom: 15px;">
+        <button id="posts">Posts</button>
+        <button id="users">Users</button>
+        <button id="todos">Todos</button>
+        <button id="photos">Photos</button>
+        <button id="clearAllBtn">Clear All</button>
+    </div>
+
+    <div id="loader" class="loader hidden">
+        <img src="img/Magnify@1.25x-1.0s-200px-200px.gif" alt="">
+    </div>
+
+    <div id="error" class="loader hidden">
+        <h2 style="color: red;">Xatolik yuz berdi!</h2>
+    </div>
+
+    <ul id="productList"></ul>
+    
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
+        
